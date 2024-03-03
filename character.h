@@ -32,7 +32,7 @@ public:
     int getShield();
     string getName();
     string getType();
-
+    void Display();
 
 
 };
@@ -51,3 +51,9 @@ string Character::getName(){
 string Character::getType(){
     return type;
 }
+void Character::Display(){
+    cout << health << " " << shield << " " << name << " " << type << endl;
+}
+
+
+
